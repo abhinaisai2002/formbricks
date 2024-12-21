@@ -1383,6 +1383,8 @@
         "calculate": "Calculer",
         "cannot_add_question_with_empty_headline_as_recall": "Impossible d'ajouter une question avec un titre vide en tant que rappel",
         "capture_a_new_action_to_trigger_a_survey_on": "Capturez une nouvelle action pour déclencher une enquête.",
+        "capture_ip_addresses": "Capturer les adresses IP des répondants",
+        "capture_ip_addresses_description": "Record IPs to detect duplicates and prevent misuse.",
         "capture_new_action": "Capturer une nouvelle action",
         "card_arrangement_for_survey_type_derived": "Disposition des cartes pour les enquêtes {surveyTypeDerived}",
         "card_background_color": "Couleur de fond de la carte",

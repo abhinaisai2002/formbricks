@@ -1383,6 +1383,8 @@
         "calculate": "Berechnen",
         "cannot_add_question_with_empty_headline_as_recall": "Frage ohne Überschrift können nicht für Recall genutzt werden",
         "capture_a_new_action_to_trigger_a_survey_on": "Erfasse eine neue Aktion, um eine Umfrage auszulösen.",
+        "capture_ip_addresses": "IP-Adressen der Teilnehmer erfassen",
+        "capture_ip_addresses_description": "Record IPs to detect duplicates and prevent misuse.",
         "capture_new_action": "Neue Aktion erfassen",
         "card_arrangement_for_survey_type_derived": "Kartenanordnung für {surveyTypeDerived}-Umfragen",
         "card_background_color": "Hintergrundfarbe der Karte",

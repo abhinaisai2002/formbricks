@@ -1383,6 +1383,8 @@
         "calculate": "Calculate",
         "cannot_add_question_with_empty_headline_as_recall": "Cannot add question with empty headline as recall",
         "capture_a_new_action_to_trigger_a_survey_on": "Capture a new action to trigger a survey on.",
+        "capture_ip_addresses": "Capture IP Addresses of Respondents",
+        "capture_ip_addresses_description": "Record IPs to detect duplicates and prevent misuse.",
         "capture_new_action": "Capture new action",
         "card_arrangement_for_survey_type_derived": "Card Arrangement for {surveyTypeDerived} Surveys",
         "card_background_color": "Card background color",

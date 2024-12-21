@@ -56,6 +56,15 @@ export const ResponseOptionsCard = ({
 
   const [verifyProtectWithPinError, setVerifyProtectWithPinError] = useState<string | null>(null);
 
+  const isCaptureIpAddressEnabled = localSurvey.isCaptureIpAddressEnabled;
+
+  const handleCaptureIpAddressToggle = () => {
+    setLocalSurvey((prevSurvey) => ({
+      ...prevSurvey,
+      isCaptureIpAddressEnabled: !prevSurvey.isCaptureIpAddressEnabled,
+    }));
+  };
+
   const handleRunOnDateToggle = () => {
     if (runOnDateToggle) {
       setRunOnDateToggle(false);
@@ -513,6 +522,14 @@ export const ResponseOptionsCard = ({
                   )}
                 </div>
               </AdvancedOptionToggle>
+
+              <AdvancedOptionToggle
+                htmlId="captureIpAddress"
+                isChecked={isCaptureIpAddressEnabled ? true : false}
+                onToggle={handleCaptureIpAddressToggle}
+                title={t("environments.surveys.edit.capture_ip_addresses")}
+                description={t("environments.surveys.edit.capture_ip_addresses_description")}
+                childBorder={true}></AdvancedOptionToggle>
             </>
           )}
         </div>

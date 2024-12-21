@@ -1383,6 +1383,8 @@
         "calculate": "Calcular",
         "cannot_add_question_with_empty_headline_as_recall": "Não dá pra adicionar pergunta com título vazio como lembrete",
         "capture_a_new_action_to_trigger_a_survey_on": "Captura uma nova ação pra disparar uma pesquisa.",
+        "capture_ip_addresses": "Capturar endereços IP dos respondentes",
+        "capture_ip_addresses_description": "Record IPs to detect duplicates and prevent misuse.",
         "capture_new_action": "Capturar nova ação",
         "card_arrangement_for_survey_type_derived": "Arranjo de Cartões para Pesquisas {surveyTypeDerived}",
         "card_background_color": "Cor de fundo do cartão",
